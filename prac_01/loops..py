@@ -1,3 +1,4 @@
+
 # odd numbers from 1 to 20
 for i in range(1, 21, 2):
     print(i, end=' ')
@@ -18,7 +19,6 @@ number_of_stars = int(input("Number of stars: "))
 for i in range(number_of_stars):
     print('*', end=' ')
 print()
-
 # d.
 for i in range(1, number_of_stars + 1):
     print('*' * i)
